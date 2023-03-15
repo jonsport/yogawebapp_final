@@ -18,6 +18,8 @@ import pickle
 from examples.lite.examples.pose_estimation.raspberry_pi.ml import Movenet
 
 movenet = Movenet('movenet_thunder')
+# with open('movenet.pkl', 'wb') as movenetfile:
+#   pickle.dump(movenet, movenetfile)
 # BodyPart =  pickle.load(open('pickled_files/BodyPart.pkl', 'rb'))
 # movenet = pickle.load(open('pickled_files/movenet.pkl','rb'))
 # model = pickle.load(open('pickled_files/yogadetectionmodel.pkl','rb'))
