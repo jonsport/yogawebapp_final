@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<div class="containerofvideocapture">
+               
+    <form method="post" action="{{ url_for('tasks') }}">
+        <input type="submit" value="Stop/Start" name="stop" class="stop"/>
+        <input type="submit" value="Capture" name="click" class="click"/>
+    </form>
+    <div class="imgcontainer">
+        <img src="{{ url_for('video_feed') }}">
+    </div>
+
+    <div class = "detected_pose">
+        Pose Detected : {{pose}}   
+    </div>
+
+</div>
+{% endblock %}
+
