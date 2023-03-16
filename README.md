@@ -25,7 +25,7 @@ On Windows: -
 venv/Scripts/activate
 
 
-Install the required packages(in requirements.txt file)
+Install the dependencies(in requirements.txt file)
 ---------------------------------------------------------
 On windows: -
 pip install -r requirements.txt
