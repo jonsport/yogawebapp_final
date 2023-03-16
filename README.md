@@ -1,5 +1,4 @@
 # yogawebapp_final
-finalized features repo
 
 Steps to run the web app locally
 -----------------------------------
