@@ -16,7 +16,7 @@ Create a virtual environment
 -------------------------------------
 cd <directory_of_clone>
 On windows: -
-python -m venv virtualenv
+python -m virtualenv venv(To create a virtual environment named "venv")
 
 
 Activate the virtual environment 
