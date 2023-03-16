@@ -1,5 +1,3 @@
-# yogawebapp_final
-
 Steps to run the web app locally
 -----------------------------------
 Clone the repository in some directory on your pc
