@@ -7,7 +7,7 @@ Clone the repository in some directory on your pc
 git clone https://github.com/jonsport/yogawebapp_final.git
 
 
-Set up an environment
+Set up a virtual environment by installing virtualenv
 -------------------------------------
 On windows, install virtualenv : pip install virtualenv
 
